@@ -16,15 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        
-        
-     /*   UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { (allowed, error) in
-            // Code will be here
-        }
-        
-        UNUserNotificationCenter.current().delegate = self */
-        
+        // Override point for customization after application launch.        
         return true
     }
     
